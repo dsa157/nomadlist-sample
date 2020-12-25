@@ -2,17 +2,18 @@
 <head>
 <title>Auto SideTrip Sample</title>
 <link rel='stylesheet' type='text/css' href='style.css' />
+<script src="validation.js"></script>
 </head>
 <body>
 
 <form action="" method="post"> 
 <table><tr> 
-<td><input placeholder="Arrival" type="date" name="arrival"></td> 
-<td><input placeholder="Departure" type="date" name="departure"></td> 
-<td><input placeholder="City" type="text" name="city"></td> 
-<td><input placeholder="Country" type="text" name="country"></td> 
+<td><input id=arrival placeholder="Arrival" type="date" name="arrival"></td> 
+<td><input id=departure placeholder="Departure" type="date" name="departure"></td> 
+<td><input id=city placeholder="City" type="text" name="city"></td> 
+<td><input id=country placeholder="Country" type="text" name="country"></td> 
 
-<td><input name="submit" type="submit" value="Add Trip"/></td></tr> 
+<td><input name="submit" type="submit" onclick="return validate()" value="Add Trip"/></td></tr> 
 </table>
 
 <?php 
