@@ -64,7 +64,7 @@ class TripList {
     $departure = Utils::formatDateWithFormat($_POST["departure"], "Y-m-d");
     $city = $_POST["city"];
     $country = $_POST["country"];
-    $sideTrip = 0;
+    // eval and handle a sideTrip 
     while ($row = $this->trips->fetchArray()) {
       $id1 = $row["id"];
       $arrival1 = $row["arrival"];
@@ -80,7 +80,6 @@ class TripList {
         $this->insert($departure, $departure1, $city1, $country1);
       }
     }
-
     
     $this->insert($arrival, $departure, $city, $country);
   }
