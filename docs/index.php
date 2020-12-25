@@ -17,7 +17,7 @@
 
 <?php 
 
-include "./Utils.php";
+include "./utils.php";
 
 $db = new SQLite3('nomadlist.db');
 if ($db == null) {
@@ -44,7 +44,7 @@ class TripList {
   }
 
   function getTrips() {
-    $this->trips = $this->db->query('select * from trips order by arrival');
+    $this->trips = $this->db->query('select * from trips order by arrival,departure');
   }
 
   function display() {
