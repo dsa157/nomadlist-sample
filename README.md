@@ -25,6 +25,7 @@ Note: the relevant logic for this is just lines 68-82 in index.php
 * this was quick an dirty
  * no exception handling
  * no security in the app or the file system with the way I structured the folders and files
+ * rudimetary javascript form validation
  * rudimentary styling
  * rudimentary classes and methods
  * no client side javascript - just very basic PHP and a SQLite database 
