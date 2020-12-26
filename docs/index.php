@@ -5,7 +5,7 @@
 <script src="validation.js"></script>
 </head>
 <body>
-<h1>NomadList Side Trip Management (<a target="new" href="https://github.com/dsa157/nomadlist-sample">Github Repo</a>)</h1>
+<h1>Nomad List Side Trip Management (<a target="new" href="https://github.com/dsa157/nomadlist-sample">Github Repo</a>)</h1>
 
 <h3>The Problem</h3>
 
