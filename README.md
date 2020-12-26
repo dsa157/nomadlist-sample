@@ -7,7 +7,7 @@ generate the hops from location to location.
 
 People often take side trips, where they are located in City1 for a duration and within that duration, they go to City2 for a short period and then return to City1.
 
-if I add a side trip, by default the map, treats that as a new destination and will plat me from City1 to City 2 to City3.
+if I add a side trip, by default the map, treats that as a new destination and will plot me from City1 to City 2 to City3.
 
 What really happened was City1 to City2 to City1 to City3.
 
@@ -19,6 +19,10 @@ My sample code detects that you added a side trip and adjusts your entries accor
 It compares the date range of a new trip to see if it is contained within an existing trip. If so, it splits the existing trip into Trip1 and Trip3 and the new trip is added as Trip2
 
 Note: the relevant logic for this is just lines 68-82 in index.php
+
+**Try It!**
+http://www.dsa157.com/nomadList-sample/docs/
+
 
 **Known Limitations of Sample Code**
 
