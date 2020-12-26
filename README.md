@@ -1,4 +1,4 @@
-#Example of side trip management on the NomadList Trips
+# Example of side trip management on the NomadList Trips
 
 **The Problem**
 
