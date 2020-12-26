@@ -15,7 +15,7 @@ On the trips page, the trip entries are correctly sorted by arrival date. The ma
 </p>
 
 <p>
-If I add a side trip, by default the map, treats that as a new destination and will plot me from City1 to City 2 to City3.
+If I add a side trip, by default, the map treats that as a new destination and will plot me from City1 to City 2 to City3.
 <br/>What really happened was City1 to City2 to City1 to City3.
 </p>
 
